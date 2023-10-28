@@ -1,0 +1,70 @@
+*{
+    font-family: Gill Sans MT;
+    color: darkslategrey;
+}
+
+body{
+    background-color: #AA95D0;
+}
+
+h1{
+    font-family: century gothic;
+    font-style: oblique
+}
+
+.fondoP{
+    background-color: white;
+    color: black;
+    width: 900px;
+    height: 500px;
+    margin-left: 230px;
+    bottom: 0%;
+    position: fixed;
+    border-style: none;
+}
+
+img{
+    width: 30%;
+    height: 280px;
+    padding-left: 60px;
+    padding-top: 100px;
+ 
+}
+
+.primertit{
+    
+    text-align: center;
+    margin-top: -320px;
+    padding-left: 280px;
+}
+
+.continuar{
+    border-radius: 20px;
+    border: solid 2px;
+    border-style:none ;
+    background-color:cornflowerblue;
+    color: azure;
+    height: 40px;
+    width: 100px;
+    font-style:oblique;
+    font-weight: bolder;
+}
+
+marquee{
+    font-size: 20pt;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-style: oblique;
+}
+
+.img2{
+    float: left;
+}
+
+.img3{
+    float: right;
+}
+
+.img4{
+    padding-top: 1px;
+}

@@ -1,0 +1,271 @@
+body{
+    font-family:Gill Sans MT;
+    background-color: #D9CCDC;
+    user-select: none;
+}
+
+.Volver{
+    margin-top: 600px;
+}
+
+.cap1{
+    padding: 5px;
+}
+
+.eu{
+    font-size: 10pt;
+    color: black;
+}
+
+.ubi{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+}
+
+.adress{
+    margin: -30px;
+    padding-left: 120px;
+    font-weight: bolder;
+    color:antiquewhite;
+    font-size: 12pt;
+}
+
+hr{
+    width: 100%;
+}
+
+/* ICONO DE TELEFONO */
+.telef{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.num{
+    font-size: 8pt;
+    padding-left: 3px;
+    margin-top: -20px;
+    font-weight: bolder;
+    color: black;
+}
+
+/* ICONO DE WHATSAPP*/
+.whats{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: -46px;
+    margin-right: 15px;
+}
+
+.numtelf{
+    font-size: 9pt;
+    float: right;
+    margin-top: -13.5px;
+    font-weight: bolder;
+    color: black;
+    margin-right: 5px;
+}
+
+/* ICONO DE INSTAGRAM*/
+.insta{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: -46px;
+    margin-right: 110px;
+}
+
+.user{
+    font-size: 9pt;
+    font-weight: bolder;
+    float: right;
+    margin-right: 70px;
+    margin-top: -13.5px;
+    position: relative;
+    color: white;
+    color: black;
+}
+
+/* ICONO DE FACEBOOK*/
+.face{
+    width: 32px;
+    height: 32px;
+     margin-right: 130px;
+     margin-top: -47px;
+     float: right;
+}
+
+.userface{
+    font-size: 9pt;
+    float: right;
+    font-weight: bolder;
+    margin-top: -6.5px;
+    margin-right: 43px;
+    color: black;
+}
+ 
+/* CONFIGURACION DE MENU */
+.promo{
+    border: solid 2px;
+    border-color: #AA95D0;
+    width: 100%;
+    height: 69px;
+    background-color: #AA95D0;
+    color: white;
+    border-radius: 4px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #AA95D0;
+    width: 90%;
+    height: 50px;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 4px;
+    float: right;
+    margin-top: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #092327;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #8839B0;
+}
+
+
+.dm{
+   padding: 30px;
+   font-size: 30pt;
+   font-style:oblique;
+   color:rebeccapurple;
+}
+
+/* SLIDER SIN JS */
+
+.container{
+    margin: auto;
+    background-color: #D9CCDC;
+    width: 900px;
+    padding: 30px;
+    margin-top: 0;
+    margin-left: 100px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity 1s;
+      background: #D9CCDC;
+  }
+  
+  ul.slider li img{
+    width: 800px;
+    height: 500px;
+    margin-left: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menuS{
+    margin-left: 400px;
+    
+  }
+  
+  .menuS li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menuS li a{
+    display: inline-block;
+    color: #092327;
+    text-decoration: none;
+    background-color: #AA95D0;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    font-family: Tahoma;
+  }
+
+  .enviaC img{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    margin-left: 40px; 
+}
+
+#ai{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+
+
+
+/* SLOGAN */
+
+.slogan{
+   text-align: center;
+   font-style: oblique;
+   font-size: 15pt;
+   font-family: Condensed;
+   font-weight: bold;
+}
+
+.slogan1{
+    float: right;
+    font-size: 15pt;
+    font-style: oblique;
+    font-family: Condensed;
+    font-weight: bold;
+}
+ 
+
+
+
+
+

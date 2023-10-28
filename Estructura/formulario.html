@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Diseño.css/diseñoformulario.css">
+    <script src="../Js/formularioDM.js"></script>
+    <title>Envianos un correo</title>
+</head>
+<body>
+   
+   <h2 class="eci">Solicita tu cotización</h2>
+
+   <h3 class="eci2">DRACIAS POR VISTIAR NUESTRO SITIO WEB.<BR>Ingrese sus datos al formulario de cotización. Los campos marcados con (*) son abligatorios.</h3>
+
+   <img class="logoForm2" src="https://cdn-icons-png.flaticon.com/512/2357/2357368.png">
+<form>
+    <div class="capaform">
+        <div>
+            <p>Nombres completos *</p>
+             <input type="text" class="nombre" name="Nombre" id="nombres" placeholder="1° Nombre   2° Nombre"> 
+           <br><b id="rec">(Si tiene solo un nombre, escribalo de todos modos).</b>      
+        </div><br>
+
+        <div>
+            <p>Apellidos completos *</p>
+            <input type="text" class="apelldo" name="Apellido" id="apellidos" placeholder="1° Apellido   2° Apellido">
+            <br><b id="rec">(Si tiene solo un apellido, escribalo de todos modos).</b>       
+        </div><br>
+
+        <div>
+            <p>Correo electronico *</p>
+            <input type="email" class="correo" name="Correo" id="correo" placeholder="ej. index.css.js00@hotmail.com">       
+        </div><br>
+    
+        <div>
+            <p>Número de teléfono *</p>
+            <input type="number" class="numero" name="Numero" id="telefono" placeholder=" ******** ">        
+        </div><br>
+     
+      <!--<div>
+            <p>Deje su opinion o consulta:</p>
+            <textarea cols="70" class="consulta" name="Textoarea" id="textarea"></textarea>
+        </div><br> -->  
+
+        <div>
+            <input type="submit" class="submit" value="Enviar" onclick="EnviarFormulario()" placeholder=" ******** ">        
+        </div><br>
+
+    </div>
+</form>
+
+<div class="volverf"><a href="Inicio.html">Regresar</a></div>
+
+</body>
+</html>

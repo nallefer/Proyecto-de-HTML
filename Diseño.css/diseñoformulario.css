@@ -1,0 +1,72 @@
+ /*  Diseño de Formulario */
+
+ body{
+   background-color: #D9CCDC;
+   font-family:Gill Sans MT;
+   color:midnightblue ;
+   font-weight: bolder;
+ }
+
+ .eci{
+    color: midnightblue;
+    font-style: oblique;
+    font-size: 20pt;
+    margin-left: 20px;
+}
+
+.eci2{
+    font-size: 12pt;
+    margin-left: 20px;
+    font-style: oblique;
+}
+
+.volverf{
+    margin-left: 5px;
+    padding-top: 50px;
+    float: left;
+}
+
+
+input{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    color: black;
+}
+
+#rec{
+    font-size: small;
+    color: #092327;
+}
+
+.capaform{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+/*.consulta{
+    height: 70px;
+    border: solid 2px;
+    background-color: #AA95D0;
+    color: black;
+    font-weight: bolder;
+}*/
+
+.logoForm2{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.submit{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #AA95D0;
+    color: #092327;
+    font-family: Tahoma;
+    margin-left: 150px;
+}
+
